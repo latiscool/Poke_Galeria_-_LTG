@@ -26,6 +26,7 @@ const requestListener = (req, res) => {
   //BLOQUE POKE
   if (req.url.startsWith('/pokemones')) {
     res.writeHead(200, { 'Content-Type': 'application/json' });
+    //IIFE
     (async () => {
       await axios.get(urlBase).then((poke) => {
         let array = poke.data.results;
