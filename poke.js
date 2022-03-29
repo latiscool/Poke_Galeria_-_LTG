@@ -5,7 +5,7 @@ const fs = require('fs');
 const open = require('open');
 const PORT = 3000;
 const host = 'localhost';
-const urlBase = 'https://pokeapi.co/api/v2/pokemon?limit=10';
+const urlBase = 'https://pokeapi.co/api/v2/pokemon?limit=151;
 let lista = [];
 
 open(`http://${host}:${PORT}/`, function (err) {
