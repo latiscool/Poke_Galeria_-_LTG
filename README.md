@@ -21,6 +21,7 @@
   
    <p> Ademas el servidor es levantado mediante nodemon (como desarrollo, dev) para ver de inmediato cualquier cambio)</p>. 
   </ol>
+    <p>PD: En caso se aparecer pantalla en blanco, pero YA cargada . Debes refrescar /actualizar pagina, esto depende del navegador</p>
 
 
 
