@@ -44,7 +44,7 @@ const requestListener = (req, res) => {
       });
     })();
 
-    ///Pasando al getFullData el ARGUMENTO nombre CON pokeName(), linea 34
+    ///Pasando al getFullData el ARGUMENTO nombre a la funcion IIFE, linea 30
     const getFullData = async (name) => {
       const { data } = await axios.get(
         `https://pokeapi.co/api/v2/pokemon/${name}`
